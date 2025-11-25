@@ -13,7 +13,7 @@ The unit test requires a local ScaleOut StateServer installation. If you'd like 
 ``mvn package -DskipTests``
 
 ## Running the LoadGenerator
-
+````
 LoadGenerator
  -c,--con_string <arg>     The SOSS connection string. Default:
                            bootstrapGateways=localhost;maxPoolSize=32;
