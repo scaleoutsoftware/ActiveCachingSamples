@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ShoppingCart": {
+      "commandName": "Project",
+      "commandLineArgs": "--debug",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "cmdLineParams": "ShoppingCart.dll",
+  "modules": [
+    {
+      "moduleName": "ShoppingCart",
+      "runtime": "dotnet",
+      "moduleType": "api"
+    }
+  ]
+
+}
