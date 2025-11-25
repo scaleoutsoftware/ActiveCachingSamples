@@ -67,7 +67,7 @@ public class RunLoad {
     };
     public static void main(String[] args) throws ExecutionException, InterruptedException, IOException {
         String def_connectionString = "bootstrapGateways=localhost;maxPoolSize=32;";
-        String def_filePath = "datasource_initfile_2000_1.csv";
+        String def_filePath = "eventtracker_initfile_2000.csv";
         int def_numTrackers = 2000;
         int def_msgsPerSecond = 1000;
 
