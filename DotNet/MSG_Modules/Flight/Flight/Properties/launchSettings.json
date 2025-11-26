@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Flight": {
+      "commandName": "Project",
+      "commandLineArgs": "--debug",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

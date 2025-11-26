@@ -1,0 +1,11 @@
+{
+  "cmdLineParams": "Flight.dll",
+  "modules": [
+    {
+      "moduleName": "Flight",
+      "runtime": "dotnet",
+      "moduleType": "msg"
+    }
+  ]
+
+}
