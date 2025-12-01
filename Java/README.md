@@ -1,6 +1,6 @@
 # ActiveCaching Java Module Samples
 
-Sample projects for the ScaleOut Software's Java modules.
+Sample projects for ScaleOut Software's Java modules.
 
 ## API
 
