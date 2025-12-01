@@ -1,0 +1,10 @@
+{
+    "cmdLineParams": "com.scaleoutsoftware.samples.server.Main",
+    "modules": [
+        {
+            "moduleName": "SossHashMap",
+            "runtime": "java",
+            "moduleType": "api"
+        }
+    ]
+}
