@@ -64,10 +64,10 @@ namespace ShoppingCart
         /// This method is called when a API invocation is received and the SOSS object 
         /// does not yet exist.
         /// </summary>
-        /// <param name="objectId">Unique ID of the object in the ScaleOut service.</param>
         /// <param name="moduleName">Name of your API module, as supplied at startup to <see cref="ModulePackage.AddApiModule{TSossObject, TApiProcessor}(string, ApiModuleOptions{TSossObject}?)"/></param>
+        /// <param name="objectId">Unique ID of the object in the ScaleOut service.</param>
         /// <returns>A new TSossObject instance.</returns>
-        public override ShoppingCartSossObject CreateObject(string objectId, string moduleName)
+        public override ShoppingCartSossObject CreateObject(string moduleName, string objectId)
         {
             return new ShoppingCartSossObject
             {

@@ -52,10 +52,10 @@ namespace Flight
         /// <summary>
         /// Factory method to create a new instance of a flight for this module.
         /// </summary>
-        /// <param name="objectId">ID of the object in the ScaleOut service.</param>
         /// <param name="moduleName">Name of your messaging module</param>
+        /// <param name="objectId">ID of the object in the ScaleOut service.</param>
         /// <returns>New FlightSossObject instance.</returns>
-        public override FlightSossObject CreateObject(string objectId, string moduleName) =>
+        public override FlightSossObject CreateObject(string moduleName, string objectId) =>
             new FlightSossObject
             {
                 Id = objectId,
