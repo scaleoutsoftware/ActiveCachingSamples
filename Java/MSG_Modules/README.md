@@ -1,3 +1,3 @@
-# ActiveCaching Java MSG Module Samples
+# ActiveCaching Java Message Module Samples
 
-Sample MSG module projects for ScaleOut Software's Java MSG Modules.
+Sample message module projects for ScaleOut Software's Java message modules.

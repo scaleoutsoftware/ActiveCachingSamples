@@ -1,11 +1,11 @@
 # ActiveCaching .NET Module Samples
 
-Sample projects for the ScaleOut Software's .NET Modules.
+Sample projects for the ScaleOut Software's .NET modules.
 
 ## API
 
 .NET API module sample projects are found in the API subfolder. 
 
-## MSG
+## Message
 
-.NET MSG module sample projects are found in the MSG subfolder. 
+.NET message module sample projects are found in the MSG subfolder. 

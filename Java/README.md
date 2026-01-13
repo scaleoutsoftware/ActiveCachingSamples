@@ -1,11 +1,11 @@
 # ActiveCaching Java Module Samples
 
-Sample projects for the ScaleOut Software's Java Modules.
+Sample projects for ScaleOut Software's Java modules.
 
 ## API
 
 Java API module sample projects are found in the API subfolder. 
 
-## MSG
+## Message
 
-Java MSG module sample projects are found in the MSG subfolder. 
+Java message module sample projects are found in the MSG subfolder. 
