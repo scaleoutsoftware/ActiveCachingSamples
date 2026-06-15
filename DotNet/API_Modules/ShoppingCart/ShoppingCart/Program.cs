@@ -64,6 +64,7 @@ namespace ShoppingCart
 
             // Register services:
             builder.Services.AddSingleton(gridConnection);
+            builder.Services.AddHttpClient();
             builder.Services.AddSingleton(metricsManager);
             builder.Services.AddHostedService<InvocationGridService>();
             builder.Services.AddSingleton<IInvocationGridStartup, Startup>();

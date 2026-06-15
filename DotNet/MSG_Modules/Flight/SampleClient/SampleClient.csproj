@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Scaleout.Modules.Client" Version="2.1.0" />
+    <PackageReference Include="Scaleout.Modules.Client" Version="3.0.0" />
   </ItemGroup>
 
 </Project>

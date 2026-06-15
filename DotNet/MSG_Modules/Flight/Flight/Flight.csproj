@@ -14,7 +14,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.7" />
     <PackageReference Include="Scaleout.InvocationGrid.Hosting" Version="1.0.20" />
-    <PackageReference Include="Scaleout.Modules.Hosting" Version="2.1.0" />
+    <PackageReference Include="Scaleout.Modules.Hosting" Version="3.0.0" />
     <PackageReference Include="Serilog.Extensions.Hosting" Version="9.0.0" />
     <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
     <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
@@ -22,12 +22,8 @@
   </ItemGroup>
 
   <Target Name="CompressPublishFolder" AfterTargets="Publish">
-    <MakeDir
-            Directories="$(MSBuildProjectDirectory)\bin\PublishedZip"/>
-    <ZipDirectory
-            SourceDirectory="$(PublishDir)"
-            DestinationFile="$(MSBuildProjectDirectory)\bin\PublishedZip\$(MSBuildProjectName).zip"
-            Overwrite="true"/>
+    <MakeDir Directories="$(MSBuildProjectDirectory)\bin\PublishedZip" />
+    <ZipDirectory SourceDirectory="$(PublishDir)" DestinationFile="$(MSBuildProjectDirectory)\bin\PublishedZip\$(MSBuildProjectName).zip" Overwrite="true" />
   </Target>
 
 </Project>
