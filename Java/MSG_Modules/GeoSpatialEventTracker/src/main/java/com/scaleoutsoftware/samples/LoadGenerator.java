@@ -306,7 +306,6 @@ public class LoadGenerator implements Runnable {
                 long stopTimeMs = System.currentTimeMillis();
                 long elapsedTimeMs = stopTimeMs - intervalTimeMs;
                 long sleepTimeMs = Math.max(0, 1000-elapsedTimeMs);
-                _reader.printAbove("Finished interval in " + elapsedTimeMs + ". Sleeping for " + sleepTimeMs + ".");
                 Thread.sleep(sleepTimeMs);
             }
         } catch (Exception e) {
