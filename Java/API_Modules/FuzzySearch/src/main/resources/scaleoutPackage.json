@@ -1,0 +1,10 @@
+{
+    "cmdLineParams": "com.scaleoutsoftware.server.Main",
+    "modules": [
+        {
+            "moduleName": "UserProfile",
+            "runtime": "java",
+            "moduleType": "api"
+        }
+    ]
+}
