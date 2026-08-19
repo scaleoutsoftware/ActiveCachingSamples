@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="DomainLayer/DomainLayer.csproj" />
+  <Project Path="LoadGenerator/LoadGenerator.csproj" />
+  <Project Path="ShoppingCart/ShoppingCart.csproj" />
+</Solution>
