@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Flight/Flight.csproj" />
+  <Project Path="SampleClient/SampleClient.csproj" />
+</Solution>
