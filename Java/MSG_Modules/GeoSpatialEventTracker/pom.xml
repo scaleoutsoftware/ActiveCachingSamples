@@ -131,12 +131,12 @@
     <dependency>
       <groupId>com.scaleoutsoftware.modules</groupId>
       <artifactId>modules-hosting</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
     </dependency>
     <dependency>
       <groupId>com.scaleoutsoftware.modules</groupId>
       <artifactId>modules-client</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
